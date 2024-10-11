@@ -1,0 +1,76 @@
+.center>.ditu {
+    margin: 0 auto;
+    width: 95%;
+    height: 38.5rem;
+    border: 2px solid #00faff;
+    background: linear-gradient(#00faff, #00faff) left top, linear-gradient(#00faff, #00faff) left top, linear-gradient(#00faff, #00faff) right top, linear-gradient(#00faff, #00faff) right top, linear-gradient(#00faff, #00faff) left bottom, linear-gradient(#00faff, #00faff) left bottom, linear-gradient(#00faff, #00faff) right bottom, linear-gradient(#00faff, #00faff) right bottom;
+    background-repeat: no-repeat;
+    background-size: 5px 20px, 20px 5px;
+}
+
+.jiankongs {
+    width: 80%;
+    height: 9.455rem;
+    overflow: hidden;
+    margin: 1.875rem auto;
+    position: relative;
+}
+.jkboss{
+    position: relative;
+}
+.jkboss>.jkleft{
+    width: 3.525rem;
+    height: 3.525rem;
+    border-top: .6125rem solid #00faff;
+    border-left: .6125rem solid #00faff;
+    transform:rotate(-45deg);
+    position: absolute;
+    top: 30%;
+    left: 1.25rem;
+    cursor: pointer;
+}
+.jkboss>.jkright{
+    width: 3.525rem;
+    height: 3.525rem;
+    border-top: .6125rem solid #00faff;
+    border-right: .6125rem solid #00faff;
+    transform:rotate(45deg);
+    position: absolute;
+    top: 30%;
+    right: 1.25rem;
+    cursor: pointer;
+}
+.jkboss>.jkleft:hover,.jkboss>.jkright:hover{
+    border-color: blue;
+}
+
+.jiankong {
+    height: 100%;
+    display: flex;
+    position: absolute;
+}
+
+.jiankong>li {
+    width: 13.5rem;
+    margin-left: 1.25rem;
+    background-image: url('../images/监控背景.png');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.jiankong>li>p {
+    text-align: center;
+    color: #fff;
+    padding-top: .3125rem;
+}
+
+.jiankong>li>video {
+    width: 13rem;
+    box-sizing: border-box;
+    padding: .1875rem;
+}

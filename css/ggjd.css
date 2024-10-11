@@ -1,0 +1,30 @@
+.ggjd>.body {
+    width: 80%;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.ggjd>.body>p {
+    font-size: .875rem;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ggjd>.body>p>span {
+    color: #2eb8ff;
+    font-weight: bolder;
+}
+
+.ggjd>.body>meter {
+    width: 100%;
+}
+
+meter::-webkit-meter-bar {
+    background: rgba(48, 196, 219, .2);
+}
+
+meter::-webkit-meter-optimum-value {
+    background: #30bdd3;
+}

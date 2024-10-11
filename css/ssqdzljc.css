@@ -1,0 +1,26 @@
+.ssqdzljc>.body{
+    width: 100%;
+    display: flex;
+}
+.ssqdzljc>.body>div{
+    width: 6rem;
+    height: 6rem;
+    background-image: url('../images/圆圈.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: .875rem;
+    margin-left: .625rem;
+}
+.ssqdzljc>.body>div>p:nth-child(1){
+    color: #2eb8ff;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+.ssqdzljc>.body>div>p:nth-child(2){
+    color: #fff;
+    font-weight: bolder;
+}

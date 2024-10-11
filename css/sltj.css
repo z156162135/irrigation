@@ -1,0 +1,192 @@
+.sltj>.body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ho {
+    width: 10.9375rem;
+    height: 3.75rem;
+    margin-bottom: 1.25rem;
+    background: linear-gradient(#ccd7d9, #ccd7d9) left top, linear-gradient(#ccd7d9, #ccd7d9) left top, linear-gradient(#ccd7d9, #ccd7d9) left bottom, linear-gradient(#ccd7d9, #ccd7d9) left bottom;
+    background-repeat: no-repeat;
+    background-size: 3px 10px, 10px 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.ho1>.tiao {
+    background: linear-gradient(to right, rgba(37, 132, 130, 1), rgba(37, 132, 130, 0));
+    width: 95%;
+    height: 88%;
+    display: flex;
+    align-items: center;
+}
+
+.ho1>.tiao>.icon {
+    margin-left: .3rem;
+    width: 3.125rem;
+    height: 3.125rem;
+    background-image: url('../images/日.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.125rem;
+}
+
+.ho1>.tiao>.datas>p {
+    font-size: .875rem;
+    color: #2eb8ff;
+}
+
+.ho1>.tiao>.datas>#suidata {
+    color: #fff;
+    font-size: .875rem;
+    background: linear-gradient(to right, rgba(37, 132, 130, 1), rgba(37, 132, 130, 0));
+    padding: 0px .3125rem;
+}
+
+.ho1>.bian {
+    height: 1.375rem;
+    border: .14rem solid #3dd4d9;
+    border-top-left-radius: 3.75rem;
+    border-bottom-left-radius: 3.75rem;
+    position: absolute;
+    left: 0;
+}
+
+.ho2>.tiao {
+    background: linear-gradient(to right, rgba(17, 160, 98, 1), rgba(17, 160, 98, 0));
+    width: 95%;
+    height: 88%;
+    display: flex;
+    align-items: center;
+}
+
+.ho2>.tiao>.icon {
+    margin-left: .3rem;
+    padding-right: .2rem;
+    padding-bottom: .1rem;
+    width: 3.125rem;
+    height: 3.125rem;
+    background-image: url('../images/月.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.125rem;
+}
+
+.ho2>.tiao>.datas>p {
+    font-size: .875rem;
+    color: #2eb8ff;
+}
+
+.ho2>.tiao>.datas>#suidata {
+    color: #fff;
+    font-size: .875rem;
+    background: linear-gradient(to right, rgba(17, 160, 98, 1), rgba(17, 160, 98, 0));
+    padding: 0px .3125rem;
+}
+
+.ho2>.bian {
+    height: 1.375rem;
+    border: .14rem solid #0dff81;
+    border-top-left-radius: 3.75rem;
+    border-bottom-left-radius: 3.75rem;
+    position: absolute;
+    left: 0;
+}
+
+.ho3>.tiao {
+    background: linear-gradient(to right, rgba(30, 101, 157, 1), rgba(30, 101, 157, 0));
+    width: 95%;
+    height: 88%;
+    display: flex;
+    align-items: center;
+}
+
+.ho3>.tiao>.icon {
+    margin-left: .3rem;
+    padding-right: .4rem;
+    width: 3.125rem;
+    height: 3.125rem;
+    background-image: url('../images/年.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.125rem;
+}
+
+.ho3>.tiao>.datas>p {
+    font-size: .875rem;
+    color: #2eb8ff;
+}
+
+.ho3>.tiao>.datas>#suidata {
+    color: #fff;
+    font-size: .875rem;
+    background: linear-gradient(to right, rgba(30, 101, 157, 1), rgba(30, 101, 157, 0));
+    padding: 0px .3125rem;
+}
+
+.ho3>.bian {
+    height: 1.375rem;
+    border: .14rem solid #00f2ff;
+    border-top-left-radius: 3.75rem;
+    border-bottom-left-radius: 3.75rem;
+    position: absolute;
+    left: 0;
+}
+
+.ho4>.tiao {
+    background: linear-gradient(to right, rgba(97, 68, 65, 1), rgba(97, 68, 65, 0));
+    width: 95%;
+    height: 88%;
+    display: flex;
+    align-items: center;
+}
+
+.ho4>.tiao>.icon {
+    margin-left: .3rem;
+    width: 3.125rem;
+    height: 3.125rem;
+    background-image: url('../images/季.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.125rem;
+}
+
+.ho4>.tiao>.datas>p {
+    font-size: .875rem;
+    color: #2eb8ff;
+}
+
+.ho4>.tiao>.datas>#suidata {
+    color: #fff;
+    font-size: .875rem;
+    background: linear-gradient(to right, rgba(97, 68, 65, 1), rgba(97, 68, 65, 0));
+    padding: 0px .3125rem;
+}
+
+.ho4>.bian {
+    height: 1.375rem;
+    border: .14rem solid #ff7f74;
+    border-top-left-radius: 3.75rem;
+    border-bottom-left-radius: 3.75rem;
+    position: absolute;
+    left: 0;
+}

@@ -1,0 +1,36 @@
+.qxxx>.body {
+    display: flex;
+}
+
+.qxxx>.body>.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin: 0 2.25rem;
+}
+
+.qxxx>.body>.right {
+    height: 15.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.qxxx>.body>.right>p {
+    text-align: left;
+    width: 13.25rem;
+    color: #fff;
+    display: flex;
+}
+.qxxx>.body>.right>p>span:nth-child(1) {
+    text-align: right;
+    width: 4rem;
+    margin-right: 2.25rem;
+}
+.qxxx>.body>.right>p>span:nth-child(2) {
+    color: #23fcff;
+}
